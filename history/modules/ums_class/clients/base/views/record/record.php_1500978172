@@ -185,14 +185,9 @@ array (
                 'name' => 'parent_name',
                 'studio' => 'visible',
                 'label' => 'LBL_FLEX_RELATE',
+                'span' => 12,
               ),
               5 => 
-              array (
-                'name' => 'department_head_c',
-                'studio' => 'visible',
-                'label' => 'LBL_DEPARTMENT_HEAD',
-              ),
-              6 => 
               array (
                 'name' => 'tag',
                 'span' => 12,

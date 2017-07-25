@@ -56,28 +56,28 @@ $dictionary['ums_class']['fields']['parent_name']['dependency']='';
  
 ?>
 <?php
-// Merged from custom/Extension/modules/ums_class/Ext/Vardefs/sugarfield_ums_class_id_c.php
-
- // created: 2017-07-24 15:01:53
-
- 
-?>
-<?php
-// Merged from custom/Extension/modules/ums_class/Ext/Vardefs/sugarfield_relate_to_c.php
-
- // created: 2017-07-24 15:03:20
-$dictionary['ums_class']['fields']['relate_to_c']['labelValue']='Related To';
-$dictionary['ums_class']['fields']['relate_to_c']['dependency']='';
-
- 
-?>
-<?php
 // Merged from custom/Extension/modules/ums_class/Ext/Vardefs/sugarfield_encrypted_c.php
 
  // created: 2017-07-24 15:21:38
 $dictionary['ums_class']['fields']['encrypted_c']['labelValue']='Encrypted';
 $dictionary['ums_class']['fields']['encrypted_c']['enforced']='';
 $dictionary['ums_class']['fields']['encrypted_c']['dependency']='';
+
+ 
+?>
+<?php
+// Merged from custom/Extension/modules/ums_class/Ext/Vardefs/sugarfield_department_head_c.php
+
+ // created: 2017-07-25 15:24:24
+$dictionary['ums_class']['fields']['department_head_c']['labelValue']='Department Head';
+$dictionary['ums_class']['fields']['department_head_c']['dependency']='';
+
+ 
+?>
+<?php
+// Merged from custom/Extension/modules/ums_class/Ext/Vardefs/sugarfield_ums_teacher_id_c.php
+
+ // created: 2017-07-25 15:24:24
 
  
 ?>

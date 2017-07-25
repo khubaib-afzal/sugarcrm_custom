@@ -32,23 +32,13 @@ array (
               ),
               2 => 
               array (
-                'name' => 'department_head_c',
-                'label' => 'LBL_DEPARTMENT_HEAD',
-                'enabled' => true,
-                'id' => 'UMS_TEACHER_ID_C',
-                'link' => true,
-                'sortable' => false,
-                'default' => true,
-              ),
-              3 => 
-              array (
                 'name' => 'encrypted_c',
                 'label' => 'LBL_ENCRYPTED',
                 'enabled' => true,
                 'sortable' => false,
                 'default' => true,
               ),
-              4 => 
+              3 => 
               array (
                 'name' => 'parent_name',
                 'label' => 'LBL_FLEX_RELATE',
@@ -58,7 +48,7 @@ array (
                 'sortable' => false,
                 'default' => true,
               ),
-              5 => 
+              4 => 
               array (
                 'name' => 'assigned_user_name',
                 'label' => 'LBL_ASSIGNED_TO_NAME',
@@ -66,19 +56,19 @@ array (
                 'enabled' => true,
                 'link' => true,
               ),
-              6 => 
+              5 => 
               array (
                 'name' => 'date_modified',
                 'enabled' => true,
                 'default' => true,
               ),
-              7 => 
+              6 => 
               array (
                 'name' => 'date_entered',
                 'enabled' => true,
                 'default' => true,
               ),
-              8 => 
+              7 => 
               array (
                 'name' => 'team_name',
                 'label' => 'LBL_TEAM',
