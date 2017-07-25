@@ -1,0 +1,4 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_T_ID_MOD2_T_ID_MOD1_FROM_T_ID_MOD2_TITLE'] = 'mod2p';
+$mod_strings['LBL_T_ID_MOD2_T_ID_MOD1_FROM_T_ID_MOD1_TITLE'] = 'mod1p';
