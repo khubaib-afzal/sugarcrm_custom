@@ -1,0 +1,4 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_T_TEMPTING_UMS_CLASS_1_FROM_T_TEMPTING_TITLE'] = 'temptings';
+$mod_strings['LBL_T_TEMPTING_UMS_CLASS_1_FROM_UMS_CLASS_TITLE'] = 'ums_class';

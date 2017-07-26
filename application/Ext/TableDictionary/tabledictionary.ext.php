@@ -25,3 +25,19 @@ include('custom/metadata/ums_course_ums_student_1MetaData.php');
 
 
 ?>
+<?php
+// Merged from custom/Extension/application/Ext/TableDictionary/t_tempting_ums_class_1.php
+
+
+    include('custom/metadata/t_tempting_ums_class_1MetaData.php');
+
+
+?>
+<?php
+// Merged from custom/Extension/application/Ext/TableDictionary/t_tempting_calls_1.php
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/t_tempting_calls_1MetaData.php');
+
+
+?>
