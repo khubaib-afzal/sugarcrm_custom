@@ -161,7 +161,7 @@ array (
           array (
             'name' => 'panel_body',
             'label' => 'LBL_RECORD_BODY',
-            'columns' => 2,
+            'columns' => 4,
             'labelsOnTop' => true,
             'placeholders' => true,
             'newTab' => false,

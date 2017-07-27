@@ -42,7 +42,9 @@ $app_list_strings['moduleListSingular']['ums_section'] = 'section';
 
 $app_list_strings['moduleList']['t_tempthing'] = 'temptings';
 $app_list_strings['moduleList']['t_tempting'] = 'temptings';
+$app_list_strings['moduleList']['t_tempting2'] = 'temptings2';
 $app_list_strings['moduleListSingular']['t_tempthing'] = 'tempting';
 $app_list_strings['moduleListSingular']['t_tempting'] = 'tempting';
+$app_list_strings['moduleListSingular']['t_tempting2'] = 'tempting2';
 
 ?>

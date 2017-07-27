@@ -31,9 +31,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'temp',
-  'published_date' => '2017-07-26 07:57:24',
+  'published_date' => '2017-07-27 10:50:34',
   'type' => 'module',
-  'version' => 1501055844,
+  'version' => 1501152634,
   'remove_tables' => 'prompt',
 );
 
@@ -43,6 +43,13 @@ $installdefs = array (
   'beans' => 
   array (
     0 => 
+    array (
+      'module' => 't_tempting2',
+      'class' => 't_tempting2',
+      'path' => 'modules/t_tempting2/t_tempting2.php',
+      'tab' => true,
+    ),
+    1 => 
     array (
       'module' => 't_tempting',
       'class' => 't_tempting',
@@ -60,6 +67,11 @@ $installdefs = array (
   'copy' => 
   array (
     0 => 
+    array (
+      'from' => '<basepath>/SugarModules/modules/t_tempting2',
+      'to' => 'modules/t_tempting2',
+    ),
+    1 => 
     array (
       'from' => '<basepath>/SugarModules/modules/t_tempting',
       'to' => 'modules/t_tempting',
