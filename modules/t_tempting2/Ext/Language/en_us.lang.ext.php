@@ -8,5 +8,6 @@
 $mod_strings['LBL_ALPHA'] = 'Aplha';
 $mod_strings['LBL_BETA'] = 'Beta';
 $mod_strings['LBL_GAMMA'] = 'Gamma';
+$mod_strings['LBL_DELTA'] = 'Delta';
 
 ?>

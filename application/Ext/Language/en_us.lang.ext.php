@@ -48,3 +48,8 @@ $app_list_strings['moduleListSingular']['t_tempting'] = 'tempting';
 $app_list_strings['moduleListSingular']['t_tempting2'] = 'tempting2';
 
 ?>
+<?php
+// Merged from custom/Extension/application/Ext/Language/en_us.lang.php
+
+  $app_strings['LBL_EXAMPLE_LABEL'] = 'Example Application Label';
+?>
