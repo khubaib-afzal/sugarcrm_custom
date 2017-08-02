@@ -2,6 +2,15 @@
 // WARNING: The contents of this file are auto-generated.
 
 
+
+$viewdefs['ums_course']['base']['layout']['subpanels']['components'][] = array(
+    'layout' => 'subpanel',
+    'label' => 'class',
+    'context' => array(
+        'link' => 'ums_class_ums_course_1',
+    )
+);
+
 // created: 2017-07-20 18:39:54
 $viewdefs['ums_course']['base']['layout']['subpanels']['components'][] = array (
   'layout' => 'subpanel',

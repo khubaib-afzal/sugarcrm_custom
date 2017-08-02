@@ -1,5 +1,5 @@
 <?php
-$module_name = 't_tempting';
+$module_name = 'ums_section';
 $viewdefs[$module_name] = 
 array (
   'base' => 
@@ -89,7 +89,7 @@ array (
                 'event' => 'button:duplicate_button:click',
                 'name' => 'duplicate_button',
                 'label' => 'LBL_DUPLICATE_BUTTON_LABEL',
-                'acl_module' => 't_tempting',
+                'acl_module' => 'ums_section',
                 'acl_action' => 'create',
               ),
               7 => 
@@ -171,7 +171,12 @@ array (
               2 => 
               array (
                 'name' => 'tag',
-                'span' => 12,
+                'span' => 6,
+              ),
+              3 => 
+              array (
+                'name' => 'ums_section_t_tempting_1_name',
+                'span' => 6,
               ),
             ),
           ),

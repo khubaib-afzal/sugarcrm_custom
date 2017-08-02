@@ -1,7 +1,4 @@
 <?php
-// WARNING: The contents of this file are auto-generated.
-
-
 
 $viewdefs['ums_class']['base']['layout']['subpanels']['components'][] = array(
     'layout' => 'subpanel',

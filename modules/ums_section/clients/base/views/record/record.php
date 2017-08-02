@@ -171,12 +171,7 @@ array (
               2 => 
               array (
                 'name' => 'tag',
-                'span' => 6,
-              ),
-              3 => 
-              array (
-                'name' => 'ums_section_t_tempting_1_name',
-                'span' => 6,
+                'span' => 12,
               ),
             ),
           ),
