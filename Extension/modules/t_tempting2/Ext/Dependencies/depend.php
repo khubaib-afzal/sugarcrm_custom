@@ -13,7 +13,7 @@ $dependencies['t_tempting2']['depend_1'] = array(
             //The parameters passed in depend on the action type
             'params' => array(
                 'target' => 'delta_c',
-                'label'  => 'delta_c_label', //normally <field>_label
+                'label'  => 'LBL_DELTA', //normally <field>_label
                 'value' => 'equal($aplha_c, "Closed")', //Formula
             ),
         ),
