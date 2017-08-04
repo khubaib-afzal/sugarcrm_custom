@@ -41,7 +41,7 @@ class ClosedWonApi extends SugarApi
     public function MyGetMethod($api, $args)
     {
         $query = new SugarQuery();
-        $query->select('name', 'description', 'amount', 'date_closed');
+        $query->select('name', 'description', 'date_closed');
         $query->from(BeanFactory::newBean('Opportunities'));
         $query->Where()->equals('sales_stage', 'Closed Won');
 

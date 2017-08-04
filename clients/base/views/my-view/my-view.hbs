@@ -1,22 +1,31 @@
 <style>
-    div.my-view
+    .my-view
     {
         padding-top: 5%;
-    }
-    div.my-view .sugar-cube
-    {
-        fill:#bbbbbb;
-        height:200px;
-        width:200px;
-        display: inline;
     }
 
 </style>
 
-<header><h1>Opportunities Report</h1></header>
+<div class="navbar navbar-fixed-top">
+    <h1 style="padding-left: 2%">Opportunities Reports</h1>
+</div>
 
-<h1>My View</h1>
+<div style="width: 100%; height: 100%; background-color: #FFFFFF">
+    
+    <h1 style="font-size: 18px; padding-left: 2%">Closed Won Opportinities</h1>
+    
+    <div style="width: 20%; border: solid 2px">
+        <div style="border-bottom: 1px solid">
+            name
+        </div>
+        <div style="border-bottom: 1px solid">
+            description
+        </div>
+        <div>
+            date_closed
+        </div>
+    </div>
 
-{{{subFieldTemplate 'sugar-cube' 'detail' cubeOptions}}}
+</div>
 
-<p>Click to spin the cube!</p>
+{{#with myData}}{{myProperty}}{{/with}}
