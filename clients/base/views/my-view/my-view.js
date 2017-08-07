@@ -3,7 +3,7 @@
     // className: 'tcenter',
 
     events: {
-        //'click .sugar-cube': 'spinCube'
+        'change #filtermonth': 'filterData'
     },
 
     render: function() {
@@ -17,16 +17,16 @@
         app.api.call('GET', apiUrl, null, {
             success: _.bind(function(response){
                 for(var index in response) {
-                    console.log(response[index]);
+                    if (!response[index].description) {
+                        response[index].description = "No description";
+                    }
                 }
 
             var obj = new Object();
-            obj.myProperty = 'myProperty';
-            this.myData = obj;
-                    
-            console.log(this.myData.myProperty);                
+            this.backup = response;
+            this.myData = response;
 
-                // console.log(this);
+            this.render();
             }, this)
         });
 
@@ -34,6 +34,25 @@
         if (options && _.isFunction(options.complete)) {
             options.complete();
         }
+        this.render();
+    },
+
+    filterData: function(item) {
+        var val = item.currentTarget.value;
+        if (val == "00") {
+            this.myData = this.backup;
+            this.render();
+            return;
+        }
+        var filtered = new Object();
+        var num = 0;
+        var obj = this.backup;
+        for(var index in obj) {
+            if ((obj[index].date_closed).indexOf(val) != -1) { // contains
+                filtered[num++] = obj[index];
+            }
+        }
+        this.myData = filtered;
         this.render();
     }
 

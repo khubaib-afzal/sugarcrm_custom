@@ -177,8 +177,8 @@ array (
               ),
               3 => 
               array (
-                'name' => 'new_c',
-                'label' => 'LBL_NEW',
+                'name' => 'newfield_c',
+                'label' => 'LBL_NEWFIELD',
                 'span' => 6,
               ),
             ),

@@ -173,13 +173,7 @@ array (
               2 => 
               array (
                 'name' => 'tag',
-                'span' => 6,
-              ),
-              3 => 
-              array (
-                'name' => 'new_c',
-                'label' => 'LBL_NEW',
-                'span' => 6,
+                'span' => 12,
               ),
             ),
           ),

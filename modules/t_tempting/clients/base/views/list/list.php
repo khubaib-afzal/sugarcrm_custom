@@ -1,5 +1,5 @@
 <?php
-$module_name = 't_tempting2';
+$module_name = 't_tempting';
 $viewdefs[$module_name] = 
 array (
   'base' => 
@@ -25,43 +25,37 @@ array (
               ),
               1 => 
               array (
-                'name' => 'alpha_c',
-                'enabled' => true,
+                'name' => 'assigned_user_name',
+                'label' => 'LBL_ASSIGNED_TO_NAME',
                 'default' => true,
+                'enabled' => true,
+                'link' => true,
               ),
               2 => 
               array (
-                'name' => 'beta_c',
+                'name' => 'date_modified',
                 'enabled' => true,
                 'default' => true,
               ),
               3 => 
               array (
-                'name' => 'gamma_c',
+                'name' => 'newfield_c',
+                'label' => 'LBL_NEWFIELD',
                 'enabled' => true,
                 'default' => true,
               ),
               4 => 
               array (
-                'name' => 'delta_c',
-                'label' => 'LBL_DELTA',
+                'name' => 'date_entered',
                 'enabled' => true,
-                'default' => true,
+                'default' => false,
               ),
               5 => 
               array (
-                'name' => 'description',
-                'label' => 'LBL_DESCRIPTION',
-                'enabled' => true,
-                'sortable' => false,
+                'name' => 'team_name',
+                'label' => 'LBL_TEAM',
                 'default' => false,
-              ),
-              6 => 
-              array (
-                'name' => 'month_select_c',
-                'label' => 'LBL_MONTH_SELECT',
                 'enabled' => true,
-                'default' => false,
               ),
             ),
           ),
@@ -69,7 +63,7 @@ array (
         'orderBy' => 
         array (
           'field' => 'date_modified',
-          'direction' => 'asc',
+          'direction' => 'desc',
         ),
       ),
     ),

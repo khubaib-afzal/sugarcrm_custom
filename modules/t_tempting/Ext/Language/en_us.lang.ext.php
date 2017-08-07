@@ -12,3 +12,10 @@ $mod_strings['LBL_UMS_SECTION_T_TEMPTING_1_FROM_T_TEMPTING_TITLE_ID'] = 'ums_sec
 $mod_strings['LBL_UMS_SECTION_T_TEMPTING_1_FROM_T_TEMPTING_TITLE'] = 'sections';
 
 ?>
+<?php
+// Merged from custom/Extension/modules/t_tempting/Ext/Language/en_us.lang.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_NEWFIELD'] = 'newField';
+
+?>

@@ -56,13 +56,6 @@ array (
                 'sortable' => false,
                 'default' => false,
               ),
-              6 => 
-              array (
-                'name' => 'month_select_c',
-                'label' => 'LBL_MONTH_SELECT',
-                'enabled' => true,
-                'default' => false,
-              ),
             ),
           ),
         ),
