@@ -2,15 +2,6 @@
 // WARNING: The contents of this file are auto-generated.
 ?>
 <?php
-// Merged from custom/Extension/modules/ums_course/Ext/Language/en_us.lang.php
-
-// WARNING: The contents of this file are auto-generated.
-$mod_strings['LBL_NAME'] = 'Name';
-$mod_strings['LBL_DEPARTMENT'] = 'Department';
-$mod_strings['LBL_CRD_HR'] = 'Credit Hours';
-
-?>
-<?php
 // Merged from custom/Extension/modules/ums_course/Ext/Language/en_us.customums_course_ums_teacher_1.php
 
 //THIS FILE IS AUTO GENERATED, DO NOT MODIFY
@@ -71,5 +62,15 @@ $mod_strings['LBL_UMS_COURSE_ACCOUNTS_1_FROM_ACCOUNTS_TITLE'] = 'Accounts';
 $mod_strings['LBL_UMS_CLASS_UMS_COURSE_1_FROM_UMS_CLASS_TITLE'] = 'classes';
 $mod_strings['LBL_UMS_CLASS_UMS_COURSE_1_FROM_UMS_COURSE_TITLE_ID'] = 'classes ID';
 $mod_strings['LBL_UMS_CLASS_UMS_COURSE_1_FROM_UMS_COURSE_TITLE'] = 'classes';
+
+?>
+<?php
+// Merged from custom/Extension/modules/ums_course/Ext/Language/en_us.lang.php
+
+// WARNING: The contents of this file are auto-generated.
+$mod_strings['LBL_NAME'] = 'Name';
+$mod_strings['LBL_DEPARTMENT'] = 'Department';
+$mod_strings['LBL_CRD_HR'] = 'Credit Hours';
+$mod_strings['LBL_TITLE'] = 'Title';
 
 ?>

@@ -3,3 +3,4 @@
 $mod_strings['LBL_NAME'] = 'Name';
 $mod_strings['LBL_DEPARTMENT'] = 'Department';
 $mod_strings['LBL_CRD_HR'] = 'Credit Hours';
+$mod_strings['LBL_TITLE'] = 'Title';
